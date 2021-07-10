@@ -1,10 +1,11 @@
 $(function () {
-    console.log('ready');
-    var clipX = $('.clip').offset().left;
-    var clipY = $('.clip').offset().top;
-    var clipW = $('.clip').width();
+    // 爪子感應區修正
+    var clipX = $('.clip-hand--left').offset().left;
+    var clipY = $('.clip-hand--left').offset().top;
+    var clipW = $('.clip-hand--right').offset().left + $('.clip-hand--right').width() - clipX;
     var clipH = $('.clip').height();
     var anwser = $('.game').data('anwser');
+    $('.clip').addClass('swing');
 
     $(".dragObject-item").draggable({
         start: function (e, ui) {

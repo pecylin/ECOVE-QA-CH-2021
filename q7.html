@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>崑鼎互動小遊戲</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="sr-only">ECOVE 崑鼎</h1>
+		</header>
+		<div class="main">
+			<div class="game" data-anwser="E" data-next="q8.html">
+				<p class="text-tips">請將答案正確的袋子拖曳至夾子上</p>
+				<p class="q q-7">崑鼎是臺灣實踐企業社會責任，推廣環境永續議題的標竿典範企業，以下何者是集團曾經榮獲的永續/CSR 獎項事蹟?</p>
+				<div class="clip swing">
+					<span class="clip-hand clip-hand--left"></span>
+					<span class="clip-hand clip-hand--right"></span>
+					<span class="clip-body"></span>
+				</div>
+				<ul class="dragObject">
+					<li class="dragObject-item"><span class="sr-only">A</span></li>
+					<li class="dragObject-item"><span class="sr-only">B</span></li>
+					<li class="dragObject-item"><span class="sr-only">C</span></li>
+					<li class="dragObject-item"><span class="sr-only">D</span></li>
+					<li class="dragObject-item"><span class="sr-only">E</span></li>
+				</ul>
+				<ul class="ans">
+					<li class="ans-item">天下企業公民獎</li>
+					<li class="ans-item">國家企業環保獎</li>
+					<li class="ans-item">國家永續發展獎</li>
+					<li class="ans-item">公司治理評鑑前5%</li>
+					<li class="ans-item">以上皆是</li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright ©2021 ECOVE Environment Corporation. All rights reserved.</footer>
+		<div class="error" style="display: none;">
+			<div class="error-content">
+				<a href="javascript:" class="btn-back"> &lt; &lt; 返回 </a>
+				<div class="rightAns">
+					<p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">崑鼎是臺灣實踐企業社會責任，推廣環境永續議題的標竿典範企業，以下何者是集團曾經榮獲的永續/CSR 獎項事蹟?</span></p>
+					<p class="text-rightAns"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">以上皆是</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>

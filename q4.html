@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>崑鼎互動小遊戲</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="sr-only">ECOVE 崑鼎</h1>
+		</header>
+		<div class="main">
+			<div class="game" data-anwser="D" data-next="q5.html">
+				<p class="text-tips">請將答案正確的袋子拖曳至夾子上</p>
+				<p class="q">崑鼎企業營運與SDGs緊密結合，以核心本業實踐CSR，請問前述「核心本業」指的是?</p>
+				<div class="clip swing">
+					<span class="clip-hand clip-hand--left"></span>
+					<span class="clip-hand clip-hand--right"></span>
+					<span class="clip-body"></span>
+				</div>
+				<ul class="dragObject">
+					<li class="dragObject-item"><span class="sr-only">A</span></li>
+					<li class="dragObject-item"><span class="sr-only">B</span></li>
+					<li class="dragObject-item"><span class="sr-only">C</span></li>
+					<li class="dragObject-item"><span class="sr-only">D</span></li>
+				</ul>
+				<ul class="ans">
+					<li class="ans-item">廢棄物管理與焚化</li>
+					<li class="ans-item">回收再利用</li>
+					<li class="ans-item">再生能源</li>
+					<li class="ans-item">以上皆是</li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright ©2021 ECOVE Environment Corporation. All rights reserved.</footer>
+		<div class="error" style="display: none;">
+			<div class="error-content">
+				<a href="javascript:" class="btn-back"> &lt; &lt; 返回 </a>
+				<div class="rightAns">
+					<p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">崑鼎企業營運與SDGs緊密結合，以核心本業實踐CSR，請問前述「核心本業」指的是?</span></p>
+					<p class="text-rightAns"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">以上皆是</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>

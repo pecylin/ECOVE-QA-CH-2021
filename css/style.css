@@ -179,7 +179,7 @@ h2 {
 	top: 856px;
 	left:15%;
 	padding-left: 24px;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	line-height: 1.8
 }
 
@@ -188,7 +188,25 @@ h2 {
 	list-style: upper-alpha;
 	box-sizing: border-box;
 }
-
+.ans-q4{
+	width: 76%;
+	left: 10%;
+}
+.ans-q4 .ans-item, .ans-q5 .ans-item, .ans-q6 .ans-item{
+	padding-right:0;
+}
+.ans-q5{
+	width: 80%;
+	left: 10%;
+}
+.ans-q6{
+	width: 80%;
+	left: 10%;
+}
+.ans-q9{
+	width: 80%;
+	left: 10%;
+}
 .dragObject {
 	width: 88%;
 	display: -webkit-box;
@@ -202,7 +220,7 @@ h2 {
 	-ms-flex-pack: center;
 	justify-content: center;
 	position: absolute;
-	top: 704px;
+	top: 692px;
 	left: 6%;
 	z-index: 15;
 }
@@ -326,6 +344,21 @@ footer {
 	text-decoration: none;
 	border-radius: 30px;
 	box-shadow: 6px 6px 0 rgb(128 210 157);
+}
+.btn-backIndex{
+	width: 10%;
+	background-color: #80d29d;
+	position: absolute;
+	top: 520px;
+	left: 45%;
+	padding: 10px 20px;
+	color:#fff;
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 2;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
 }
 
 .rightAns {
